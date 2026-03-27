@@ -1,0 +1,4 @@
+Flask
+flask-restful
+Flask-SQLAlchemy
+#https://www.youtube.com/watch?v=z3YMz-Gocmw
