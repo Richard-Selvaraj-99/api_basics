@@ -78,4 +78,6 @@ def home():
     return '<h1>Flask REST API</h1>'
 
 if __name__ == '__main__':
-    app.run(debug=True) 
+    with app.app_context():
+        db.create_all()
+    app.run(debug=True)
